@@ -1,2 +1,3 @@
-# ctf-cryptograpy1
-Clue 1: "Kunci yang digunakan bukan 's3cr3tK'. Coba balik urutan byte kunci atau pertimbangkan urutan yang berbeda."  Clue 2: "Perhatikan indeks yang dihasilkan oleh (idx*17+3)%7. Ini akan mengacak urutan kunci. Coba cari urutan kunci yang membuat output diawali 'C'."
+Clue 1: Kunci yang terlihat 's3cr3tK' adalah palsu. Kunci sebenarnya adalah anagram dari 's3cr3tK' yang dimulai dengan 'K' dan diikuti oleh '3','c','s','t','r','3'.
+
+Clue 2: Jalankan decodePrimary dengan kunci [75, 51, 99, 115, 116, 114, 51] dalam desimal.
